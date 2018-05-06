@@ -27,7 +27,7 @@ int draw_wave(ALLEGRO_DISPLAY * display, wave * w){
     if(w->n_x >= 0)
         al_draw_pieslice(w->center_x, w->center_y, w->r, atan(w->n_y / w->n_x) - PI / 2, PI, wave_color, 1);
     else
-        al_draw_pieslice(w->center_x, w->center_y, w->r, - atan(- w->n_y / w->n_x) + PI / 2, PI, wave_color, 3);
+        al_draw_pieslice(w->center_x, w->center_y, w->r, - atan(- w->n_y / w->n_x) + PI / 2, PI, wave_color, 1);
 
 
     return 0;
