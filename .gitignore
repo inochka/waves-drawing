@@ -1,0 +1,4 @@
+*.txt
+main
+main_old.c
+old_variants.c
